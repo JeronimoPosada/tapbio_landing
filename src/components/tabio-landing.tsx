@@ -10,13 +10,19 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import googleAsset from "@/assets/acrilico_google-safe.webp.asset.json";
-import instagramAsset from "@/assets/acrilico_ig-safe.webp.asset.json";
-import menuAsset from "@/assets/acrilico_menu-safe.webp.asset.json";
-import facebookAsset from "@/assets/acrilico_fb-safe.webp.asset.json";
-import tiktokAsset from "@/assets/acrilico_tiktok-safe.webp.asset.json";
-import logoAsset from "@/assets/tapbio-logo-dark.png.asset.json";
-import iconAsset from "@/assets/tapbio-icon-official.png.asset.json";
+import googleImg from "@/assets/acrilico_google.jpeg";
+import instagramImg from "@/assets/acrilico_ig.png";
+import menuImg from "@/assets/acrilico_menu.png";
+import facebookImg from "@/assets/acrilico_fb.png";
+import tiktokImg from "@/assets/acrilico_tiktok.png";
+
+const googleAsset = { url: googleImg };
+const instagramAsset = { url: instagramImg };
+const menuAsset = { url: menuImg };
+const facebookAsset = { url: facebookImg };
+const tiktokAsset = { url: tiktokImg };
+const logoAsset = { url: "/logo_tapbio.png" };
+const iconAsset = { url: "/favicon.png" };
 
 const WHATSAPP = "https://wa.me/573053403401";
 
