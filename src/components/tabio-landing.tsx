@@ -22,7 +22,7 @@ const menuAsset = { url: menuImg };
 const facebookAsset = { url: facebookImg };
 const tiktokAsset = { url: tiktokImg };
 const logoAsset = { url: "/logo_tapbio.png" };
-const iconAsset = { url: "/favicon.png" };
+const iconAsset = { url: "/logo_tapbio.png" };
 
 const WHATSAPP = "https://wa.me/573053403401";
 
